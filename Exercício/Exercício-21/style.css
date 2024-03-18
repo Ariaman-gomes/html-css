@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(189, 186, 186);}
+h1#texto{
+    height:300px;
+    width: 300px;
+    background-color: orange;
+ border: 10px solid, darkslategrey;
+
+
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 40px;      /*DA BORDA PRA DENTRO*/
+    padding-left: 20px;
+
+    margin-top: 10px;  /*BORDA PRA FORA*/
+    margin-right: 10px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+
+    outline-width: 3px;   /*trassejado*/
+    outline-style: dashed;
+    outline-color: rgb(75, 248, 95);
+}
+
+a#vermelho{
+    border-width: 5px;
+    border-color: red; 
+    border-style: solid;       /* EFEITO DA BORDA PRA DENTRO*/
+    border-color: red;     
+
+    padding-top: 10px;
+    padding-right: 10px;      /*EFEITO DA BORDA PRA FORA*/
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
