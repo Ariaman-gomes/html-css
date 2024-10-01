@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+:root{
+       --font-1: Verdana, Geneva, Tahoma, sans-serif;
+       --font-2: "Sriracha", cursive;
+       --font-3: "Nerko One", cursive;   
+}
+.sriracha-regular {
+    font-family: "Sriracha", cursive;
+    font-weight: 400;
+    font-style: normal;
+   
+  }
+  
+  
+  
+* { margin: 0px;
+    padding: 0px;
+}
+html, body {
+    min-height: 100vh;
+    background-color: bisque;
+    font-family:var(--font-1) ;
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+header h1 {
+    padding-top: 10px;
+    font-variant: small-caps;
+    font-family: var(--font-2);
+    font-size: 10vw;
+}
+header >p {
+    padding-bottom: 30px;
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+section.normal{
+    background-color: white;
+    color: rgb(132, 132, 132);
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 25px;
+    font-family: var(--font-3);
+    font-size: 3vw;
+    
+}
+  section > p {
+    padding-bottom: 2em;
+  }
+section.imagem{
+    
+    background-color: rgb(121, 119, 119);
+    color: white;
+    box-shadow:inset 6px 6px
+     13px rgba(0, 0, 0, 0.294);    
+     background-size: cover;
+     background-attachment: fixed;
+
+}
+
+section.imagem> p{
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.214);
+    text-shadow: 2px 2px 0px black;
+    
+
+
+}
+
+section#img01 {
+background-image: url(../imagens/background001.jpg);
+background-position: right center; 
+
+}
+
+section#img02{
+background-image: url(background002.jpg);
+
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    line-height: 30px;
+    
+}

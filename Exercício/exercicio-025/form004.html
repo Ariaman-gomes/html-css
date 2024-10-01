@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        fieldset{
+            background-color: antiquewhite;
+            width: 100px;
+            height: 300px;
+            border-radius: 10px;
+           
+        }
+        input#enviar{
+            border-radius: 10px;
+            width: 95px;
+            padding: 5px;
+            background-color: antiquewhite;
+            
+
+        }
+        input#apagar{
+            border-radius: 10px;
+            width: 95px;
+            padding: 5px;
+            background-color: antiquewhite;
+
+        }
+        p#texto{
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Exemplo de formulário</h1>
+    <hr>
+    
+
+    </div>
+
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <p>
+                <label for=" iname"> Nome:</label>
+                <input type="name" mame="nome" id="iname" required placeholder="nome">
+            </p>
+            
+            
+            <p>
+                <label for="igenero"> Gênero:</label>
+                <input type="sex" name="genero" id="igenero" required placeholder="Gênero">
+            </p>
+            <p>
+                <label for="iemail">E-mail:</label>
+                <input type="email" name="email" id="iemail" required required placeholder="@">
+            </p>
+            <p>
+                <label for="itelefone">Telefone:</label>
+                <input type="tel" name="Telefone" id="itelefone" autocomplete="tel" pattern="^\(\d{2}\)\d{4,5}-\d{4} \d{4}  $" required placeholder="(xx)x-xxxx-xxxx">
+                <p id="texto">Confirme seus dados parta prosseguir.</p>
+            
+            </p>
+        </fieldset>
+        <p>
+            <input id="enviar" type="submit" value="Enviar">
+            <input id="apagar" type="reset" value="Limpar ">
+        </p>
+
+
+    </form>
+    <br>
+
+
+
+    
+</body>
+</html>

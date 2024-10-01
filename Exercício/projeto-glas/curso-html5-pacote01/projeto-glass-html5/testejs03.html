@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    
+    
+    <title>Teste JavaScript</title>
+    <meta charset="UTF-8">  <!---tudo que estiver entre ( ### )
+    chama-se de parâmetros-->
+    <!--TUDO QUE TIVER DENTRO DE CHAVES { ### } SÃO CÓDIGOS-->
+<script>
+
+  function mudaLampada(tipo) {
+    if (tipo == 1) {arquivo= "lampada acesa(3).png";}
+
+
+    if (tipo == 2) {arquivo= "lampada apagada.png";}
+
+
+    if (tipo == 2) {arquivo= "lampada quebrada.png";}
+
+
+    document.getElementById( "luz") .src = arquivo;
+     }
+     <img src=""/>
+</script>
+
+</head>
+<body>
+    <h1>Acenda a lâmpada</h1>
+   
+<img src="lampada apagada.png" id="luz" onmousemove=" mudaLampada(1)" onmouseout=" mudaLampada(2) " onclick=" mudaLampada(3) "/> <!----->
+<!--- PRÓXIMA AULA 24-->
+
+</body>
+</html>
