@@ -9,3 +9,17 @@ html{
     font-size: 1em
     
 }
+header{
+    background-color: rgb(62, 82, 99);
+}
+header > h1{
+    text-align: center;
+
+}
+menu ul{
+    display:inline-block;
+    list-style: none;
+    background-color: gray;
+
+
+}
