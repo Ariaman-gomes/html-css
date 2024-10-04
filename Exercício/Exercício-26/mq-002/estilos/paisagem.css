@@ -2,4 +2,5 @@
 /**APARELHO DEITADO (landscape)**/
 body{
     background-color: url(../imagens/cev-landscape.jpg);
+    background-position: left bottom;
 }
