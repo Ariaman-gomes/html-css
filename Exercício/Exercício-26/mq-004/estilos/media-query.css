@@ -2,6 +2,7 @@
 /**todas as demis mídias
 
 typical device brackpoint
+
 pequenas telas: até 600px
 celular: de 600px
 tablet: 768 px até 992px
@@ -28,7 +29,7 @@ grandes telas*/
 
 }
 @media screen  and (min-width: 992px)and (max-width:1200px){ /** PC**/ 
-   body { background-image: url(../imsgrns/back-pc.jpg);}
+   body {background-image: url(../imsgrns/back-pc.jpg);}
 
    img#phone { display: none;}  
    img#tablet { display:none;}
