@@ -14,30 +14,66 @@
         body{
             background-color: lightcoral;
             
+            
+            
         }
-        main{
+        main {
             background-color: lightgreen;
             height: 100vh;
             width: 100vw;
+            display: block;
             
             display: flex;
             flex-flow: row nowrap;
             justify-content: center;
-            align-items: center;
+            
 
         }
-        section{
-            background-color: lightseagreen;
-            height: 200px;
-            width: 200px;
+        h1{
+            font-family: Arial, Helvetica, sans-serif;
+            text-shadow: 4px 3px 1px black;
+            text-align: center;
+            color: aliceblue;
         }
+        
+        section{
+            border-radius: 3% 3%;
+            display: block;
+            background-image: url(../flex0-05/img/casa.jpg) ;
+            background-color: lightseagreen;
+            background-size: contain;
+            
+            height: 295px;
+            width: 700px;
+        }
+        
+        
+
+            
         
     </style>
 </head>
 <body>
     <main>
+        
         <section>
             <h1>Tela de Login</h1>
+
+            
+            <form action="cadastro.php" method=" get" autocomplete="off">  
+                
+                    <label for="inome"> Nome: </label>
+                    <input type="text" name=" nome" id=" inome" required maxlength=" 20" placeholder=" nome"><br>
+
+                    <label for="isenha"> Senha:</label>
+                    <input type="text" name=" senha" id=" isenha" required maxlength=" 20" placeholder=" senha">
+            
+            
+            <p>
+                <input type="submit" value=" enviar">
+                <input type="reset" value=" apagar">
+            </p>
+            </form>
         </section>
     </main>
 </body>
