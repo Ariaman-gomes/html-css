@@ -3,70 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flexible box</title>
+    <title>Flexible centralizado</title>
     <style>
         *{
             margin: 0px;
             padding: 0px;
-            box-sizing: border-box;
 
         }
         body{
-            background-color: lightcoral;
-            
-            
-            
+            background-color: orangered;
         }
-        main {
-            background-color: lightgreen;
+        main{
+            background-color: green;
             height: 100vh;
             width: 100vw;
-            
-            
+
             display: flex;
-            flex-flow: row nowrap;
+            flex-flow: row wrap;
             justify-content: center;
             align-items: center;
-            
 
         }
         section{
-            background-color: blueviolet;
-            background-image: url(../flex0-05/img/casa.jpg);
-            height: 300px;
-            width: 500px;
-        }
-        i#linha{
-            background-color: antiquewhite;
-        }
-        
+            background-color: aqua;
+            height: 200px;
+            width: 200px;
 
+        }
+        section > h1{
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
             
-        
+        }
     </style>
 </head>
 <body>
     <main>
-        
-        <section id="linha">
-            <h1>Tela de Login</h1>
-
-            
-            <form action="cadastro.php" method=" get" autocomplete="off">  
-                
-                    <label for="inome"> Nome: </label>
-                    <input type="text" name=" nome" id=" inome" required maxlength=" 20" placeholder=" nome"><br>
-
-                    <label for="isenha"> Senha:</label>
-                    <input type="text" name=" senha" id=" isenha" required maxlength=" 20" placeholder=" senha">
-            
-            
-            <p>
-                <input type="submit" value=" enviar">
-                <input type="reset" value=" apagar">
-            </p>
-            </form>
-        </section>
+            <section>
+                <h1>Tela de Login</h1>
+            </section>
     </main>
 </body>
 </html>
