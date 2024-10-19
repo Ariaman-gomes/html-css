@@ -7,8 +7,12 @@
     <style>
         div.conteiner{
         background-color: aqua; 
+
         display: flex;
         flex-flow: row wrap;
+        align-items: flex-start;
+        height: 400px;
+
         }
 
         div.item{
@@ -19,30 +23,35 @@
 
         }
         div#i1{
-            order: 0;
+            align-self: auto;
         }
 
         div#i2{
-            order: -2;
+            align-self: flex-start;
+            
         }
 
         div#i3{
-            order: 4;
+            align-self: flex-end;
+            
         }
 
         div#i4{
-            order: 8;
+            align-self: center;
+            
         }
         div#i5{
-            order: 2;
+            align-self: stretch;
+            
         }
 
         div#i6{
-            order: 0;
+            align-self: center;
         }
 
         div#i7{
-            order: -4;
+            align-self: stretch;
+            
         }
 
     </style>
@@ -58,4 +67,4 @@
         <div class=" item" id="i7">G</div>
     </div>
 </body>
-</html>
+</html><!--  -->
