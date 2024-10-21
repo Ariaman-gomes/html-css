@@ -6,12 +6,20 @@
     <title>Flexible box</title>
     <style>
         div.conteiner{
-        background-color: aqua;
         display: flex;
         flex-flow: row nowrap;
         }
+        body{
+            height: 100vh;
+            background-color: black;
+            background-image:url(imagem/casa.jpg);
+            background-position: center center;
+            background-repeat:no-repeat;
+            background-size: cover;
+
+        }
         div.item{
-            background-color: blueviolet;
+            background-color: rgba(137, 43, 226, 0.479);
             border: 1px solid  black;
             text-align: center;
             flex-basis: 200px;
@@ -25,24 +33,24 @@
         div#CXA{
             flex-basis: 150px;
             flex-shrink: 1; 
-            flex-grow: 0;
+            flex-grow: 1;
         }
         div#CXB{
             flex-basis: 150px;
-            background-color: goldenrod;
             flex-shrink: 1; 
-            flex-grow: 2;
+            flex-grow: 1;
             
         }
         div#CXC{
             flex-basis: 150px;
             flex-shrink: 1; 
-            flex-grow:4;
+            flex-grow:1;
         }
         
     </style>
 </head>
 <body>
+    
     <div class="conteiner">
         <div class=" item"  id="CXA">Menu</div>
         <div class=" item"  id="CXB">Fotos</div>
