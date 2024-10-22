@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible box</title>
+    <style>
+        div.conteiner{
+        display: flex;
+        flex-flow: row nowrap;
+        height: 30px;
+        color: white;
+        }
+        h1{
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+        body{
+            height: 99vh;
+            background-color: black;
+            background-image:url(imagem/casa.jpg);
+            background-position: center center;
+            background-repeat:no-repeat;
+            background-size: cover;
+            background-attachment:fixed ;
+
+
+        }
+        div.item{
+            background-color: rgba(137, 43, 226, 0.479);
+            border: 1px solid  black;
+            text-align: center;
+            flex-basis: 200px;
+            
+            font-family: Arial, Helvetica, sans-serif;
+            text-shadow: 3px 2px 1px black;
+            
+
+        }
+        div.foto{
+            display: flex;
+        flex-flow: row nowrap;
+        height: 400px;
+        color: white;
+        flex-basis: 200px;
+        }
+        div#CX1{
+        background-color: rgba(137, 43, 226, 0.479);
+        border: 1px solid  black;
+        text-align: center;
+        flex-basis: 500px;
+        flex-flow: column;
+        align-content: space-evenly;
+        justify-content:baseline;
+        }
+
+        
+        div#CXA{
+            flex-basis: 150px;
+            flex-shrink: 1; 
+            flex-grow: 1;
+        }
+        div#CXB{
+            flex: 1 1 150px;
+            
+        }
+        div#CXC{
+            flex: 1 1 150px;
+        }
+        div#CXD{
+            flex: 1 0 150px;
+        }
+p{
+    background-color: rgba(248, 248, 248, 0.692);
+    max-width: 500px;
+    padding: 10px;
+    margin: auto;
+    border: 1px;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+div#roda{
+    background-color: blueviolet;
+
+}
+
+        
+    </style>
+</head>
+<body>
+    
+    <div class="conteiner">
+        <div class=" item"  id="CXA">Menu</div>
+
+
+        <div class=" item"  id="CXB">Fotos</div>
+
+
+        <div class=" item"  id="CXC">Artigos</div>
+
+
+        <div class=" item"  id="CXD"><a href="">login</a></div>
+    </div>
+    <h1> Teste de site de Download de imagens</h1>
+
+    <div class="foto">
+
+        <div  id="CX1"> foto <img src="imagem/" alt=""></div>
+
+        <div  id="CX1">Foto <img src="imagem/" alt=""></div>
+
+        <div  id="CX1">Foto <img src="imagem/" alt=""></div>
+
+        <div  id="CX1">Foto <img src="imagem/" alt=""></div>
+    </div>
+    <br>
+    <div class="foto">
+
+        <div  id="CX1"> foto <img src="imagem/" alt=""></div>
+
+        <div  id="CX1">Foto <img src="imagem/" alt=""></div>
+
+        <div  id="CX1">Foto <img src="imagem/" alt=""></div>
+
+        <div  id="CX1">Foto <img src="imagem/" alt=""></div>
+    </div>
+    <br>
+    <div class="foto">
+
+        <div  id="CX1"> foto <img src="imagem/" alt=""></div>
+
+        <div  id="CX1">Foto <img src="imagem/" alt=""></div>
+
+        <div  id="CX1">Foto <img src="imagem/" alt=""></div>
+
+        <div  id="CX1">Foto <img src="imagem/" alt=""></div>
+    </div>
+    <br>
+    
+    
+</body>
+<p id="roda"> 
+Projeto de site para download de imagens
+    </p>
+</html>
