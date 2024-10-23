@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible box</title>
+    <style>
+        div.conteiner{
+        display: flex;
+        flex-flow: row nowrap;
+
+        }
+        h1{
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+
+        div.item{
+            background-color: rgba(137, 43, 226, 0.479);
+            border: 1px solid  black;
+            text-align: center;
+            
+            
+
+        }
+
+        
+        div#CXA{
+            /*flex-basis: 150px;
+            flex-shrink: 1; 
+            flex-grow: 1;*/
+            flex:1 0 200px ;
+
+        }
+        div#CXB{
+            /*flex-basis: 150px;
+            flex-shrink: 1; 
+            flex-grow: 1;*/
+            flex: 1 1 200px;
+            
+        }
+        div#CXC{
+        /* flex-basis: 150px;
+            flex-shrink: 1; 
+            flex-grow: 1;*/
+
+            flex: 8 1 200px;
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <div class="conteiner">
+        <div class=" item"  id="CXA">Menu</div>
+
+
+        <div class=" item"  id="CXB">Fotos</div>
+
+
+        <div class=" item"  id="CXC">Artigos</div>
+
+    </div>
+    
+</body>
+
+</html>
